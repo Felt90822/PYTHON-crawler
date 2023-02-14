@@ -18,13 +18,13 @@ driver.get("https://twitter.com/i/flow/login")
 name = WebDriverWait(driver, 10).until(  #等待10秒 直到...載入
     EC.presence_of_element_located((By.NAME, "text"))
 )
-name.send_keys("Felt90822")
+name.send_keys("Your account")
 name.send_keys(Keys.RETURN)
 
 password = name = WebDriverWait(driver, 10).until(  #等待10秒 直到...載入
     EC.presence_of_element_located((By.NAME, "password"))
 )
-name.send_keys("Zero9487")
+name.send_keys("Your password")
 name.send_keys(Keys.RETURN)
 
 check = WebDriverWait(driver, 10).until(  #等待10秒 直到...載入
