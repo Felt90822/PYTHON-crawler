@@ -14,8 +14,8 @@ driver.get("https://info.hwsh.ylc.edu.tw/online/")
 userName = driver.find_element(By.NAME, "Loginid")
 passWord = driver.find_element(By.NAME, "LoginPwd")
 
-userName.send_keys("011273")
-passWord.send_keys("P124909441")
+userName.send_keys("Your account")
+passWord.send_keys("Your password")
 
 signIn = driver.find_element(By.NAME, "Enter")
 
